@@ -1,0 +1,161 @@
+{
+  "title": "Gestione delle pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare, filtrare e registrare pratiche inventate, con stato e scadenza in evidenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle pratiche e accesso rapido agli elenchi filtrabili.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "8"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "3"
+        },
+        {
+          "label": "In attesa",
+          "value": "2"
+        },
+        {
+          "label": "Da completare oggi",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-019-001",
+          "Lumo Riva",
+          "Permessi",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-019-002",
+          "Vela Neri",
+          "Residenza",
+          "In attesa",
+          "14/06/2026"
+        ],
+        [
+          "PR-019-003",
+          "Nubi Sarti",
+          "Certificati",
+          "Completata",
+          "09/06/2026"
+        ],
+        [
+          "PR-019-004",
+          "Lumo Tesa",
+          "Segnalazioni",
+          "Da verificare",
+          "11/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Cerca e filtra le pratiche per stato o servizio; seleziona una riga per consultarla.",
+      "metrics": [],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-019-001",
+          "Lumo Riva",
+          "Permessi",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-019-002",
+          "Vela Neri",
+          "Residenza",
+          "In attesa",
+          "14/06/2026"
+        ],
+        [
+          "PR-019-003",
+          "Nubi Sarti",
+          "Certificati",
+          "Completata",
+          "09/06/2026"
+        ],
+        [
+          "PR-019-004",
+          "Lumo Tesa",
+          "Segnalazioni",
+          "Da verificare",
+          "11/06/2026"
+        ],
+        [
+          "PR-019-005",
+          "Vela Orni",
+          "Permessi",
+          "In attesa",
+          "17/06/2026"
+        ],
+        [
+          "PR-019-006",
+          "Nubi Leri",
+          "Residenza",
+          "In lavorazione",
+          "13/06/2026"
+        ],
+        [
+          "PR-019-007",
+          "Lumo Vani",
+          "Certificati",
+          "In lavorazione",
+          "16/06/2026"
+        ],
+        [
+          "PR-019-008",
+          "Vela Sori",
+          "Segnalazioni",
+          "Completata",
+          "10/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Registra pratica",
+      "description": "Inserisci una nuova pratica con i dati minimi necessari e una scadenza.",
+      "metrics": [],
+      "columns": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Numero pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Scadenza"
+      ]
+    }
+  ]
+}
